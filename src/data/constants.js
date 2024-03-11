@@ -100,45 +100,45 @@ export const skills = [
   {
     title: "DevOps",
     skills: [
-      {
-        name: "AWS",
-        image:
-          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-      },
-      {
-        name: "Google Cloud",
-        image:
-          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-      },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-      {
-        name: "Jenkins",
-        image:
-          "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-      },
-      {
-        name: "Nginx",
-        image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
-      },
-      {
-        name: "Grafana",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-      },
-      {
-        name: "Kubernetes",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-      },
-      {
-        name: "Prometheus",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
-      },
+      // {
+      //   name: "AWS",
+      //   image:
+      //     "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+      // },
+      // {
+      //   name: "Google Cloud",
+      //   image:
+      //     "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+      // },
+      // {
+      //   name: "Docker",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      // },
+      // {
+      //   name: "Jenkins",
+      //   image:
+      //     "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
+      // },
+      // {
+      //   name: "Nginx",
+      //   image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
+      // },
+      // {
+      //   name: "Grafana",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
+      // },
+      // {
+      //   name: "Kubernetes",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
+      // },
+      // {
+      //   name: "Prometheus",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
+      // },
     ],
   },
   {

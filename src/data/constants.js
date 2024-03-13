@@ -287,26 +287,32 @@ export const education = [
 ];
 
 export const projects = [
-  // {
-  //   id: 11,
-  //   title: "DecisionHub",
-  //   date: "Jan 2024 - Dec 2023",
-  //   description:
-  //     "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
-  //   image:
-  //     "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
-  //   tags: [
-  //     "React Js",
-  //     "PostgressSQL",
-  //     "Node Js",
-  //     "Express Js",
-  //     "Redux",
-  //     "React Flow",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/DecisionHub",
-  //   webapp: "https://decisionhub.netlify.app/",
-  // },
+  {
+    id: 0,
+    title: "Cafe-Ferrer Website",
+    date: "Jan 5 2024",
+    description:
+      "A Website for the coffe shop Cafe-Ferrer made with React.js, Node.js, Express.js.",
+    image:
+      "https://github.com/Lolillya/cafe-ferrer-website/blob/main/client/img/logo.png",
+    tags: ["React Js", "XAMPP MySql", "Node Js", "Express Js", "TailwindCSS"],
+    category: "web app",
+    github: "https://github.com/Lolillya/cafe-ferrer-website.git",
+    webapp: "",
+  },
+  {
+    id: 1,
+    title: "WebProg Activity Week 7",
+    date: "Jan 29 2024",
+    description:
+      "An activity in Web Programming creating a basic navigation bar. ",
+    image:
+      "https://github.com/Lolillya/cafe-ferrer-website/blob/main/client/img/logo.png",
+    tags: ["React Js", "XAMPP MySql", "Node Js", "Express Js", "TailwindCSS"],
+    category: "web app",
+    github: "https://github.com/Lolillya/webProg-week-7.git",
+    webapp: "",
+  },
   // {
   //   id: 9,
   //   title: "Trackify",

@@ -104,7 +104,7 @@ const Projects = () => {
     <Container id="projects">
       <Wrapper>
         <Title>Projects</Title>
-        <Desc>Coming Soon</Desc>
+        <Desc>Here are my list of projects.</Desc>
 
         <ToggleGroup>
           {toggle === "all" ? (

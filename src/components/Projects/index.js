@@ -124,11 +124,11 @@ const Projects = () => {
               value="web app"
               onClick={() => setToggle("web app")}
             >
-              WEB APPS
+              Web Apps
             </ToggleButton>
           ) : (
             <ToggleButton value="web app" onClick={() => setToggle("web app")}>
-              WEB APPS
+              Web Apps
             </ToggleButton>
           )}
 
@@ -139,14 +139,14 @@ const Projects = () => {
               value="android app"
               onClick={() => setToggle("android app")}
             >
-              android app APPS
+              Android APPS
             </ToggleButton>
           ) : (
             <ToggleButton
               value="android app"
               onClick={() => setToggle("android app")}
             >
-              android app APPS
+              Android Apps
             </ToggleButton>
           )}
 
@@ -157,21 +157,23 @@ const Projects = () => {
               value="machine learning"
               onClick={() => setToggle("machine learning")}
             >
-              MACHINE LEARNING
+              Machine Learning
             </ToggleButton>
           ) : (
             <ToggleButton
               value="machine learning"
               onClick={() => setToggle("machine learning")}
             >
-              MACHINE LEARNING
+              Machine Learning
             </ToggleButton>
           )}
         </ToggleGroup>
 
         <CardContainer>
           {toggle === "all" &&
-            projects.map((project) => <ProjectCard project={project} />)}
+            projects.map((project) => (
+              <ProjectCard project={project} key={project.id} />
+            ))}
           {projects
             .filter((item) => item.category === toggle)
             .map((project) => (

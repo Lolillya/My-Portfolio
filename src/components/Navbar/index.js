@@ -120,6 +120,7 @@ const Span = styled.span`
   padding: 0 4px;
   font-weight: bold;
   font-size: 18px;
+  color: white;
 `;
 
 const MobileMenu = styled.div`
@@ -160,7 +161,7 @@ const Navbar = () => {
     <Nav>
       <NavContainer>
         <NavLogo>
-          <a
+          {/* <a
             style={{
               display: "flex",
               alignItems: "center",
@@ -168,10 +169,10 @@ const Navbar = () => {
               marginBottom: "20",
               cursor: "pointer",
             }}
-          >
-            <DiCssdeck size="3rem" />
-            <Span>Portfolio</Span>
-          </a>
+          > */}
+          <DiCssdeck size="3rem" color="white" />
+          <Span>Portfolio</Span>
+          {/* </a> */}
         </NavLogo>
         <MobileIcon>
           <FaBars
@@ -258,6 +259,7 @@ const Navbar = () => {
               display: "flex",
               justifyContent: "end",
               alignItems: "center",
+              textDecoration: "none",
             }}
           >
             <GithubButton>Github Profile</GithubButton>

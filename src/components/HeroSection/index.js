@@ -6,21 +6,19 @@ import HeroBgAnimation from "../HeroBgAnimation";
 import { Link } from "react-router-dom";
 
 const HeroContainer = styled.div`
-  background-color: ${({ theme }) => theme.card_light};
+  background: ${({ theme }) => theme.card_light};
   display: flex;
   justify-content: center;
   position: relative;
   padding: 80px 30px;
-
-  @media screen and (max-width: 960px) {
+  @media (max-width: 960px) {
     padding: 66px 16px;
   }
-
-  @media screen and (max-width: 640px) {
+  @media (max-width: 640) {
     padding: 32px 16px;
   }
-
   z-index: 1;
+
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
 
@@ -28,31 +26,35 @@ const HeroBg = styled.div`
   position: absolute;
   display: flex;
   justify-content: end;
-  top: 50%;
+  top: 0;
   right: 0;
   bottom: 0;
-  left: 50%;
-  overflow: hidden;
-  width: 82%;
+  left: 0;
+  width: 100%;
   height: 100%;
+  max-width: 1360px;
+  overflow: hidden;
   padding: 0 30px;
+  top: 50%;
+  left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 
-  @media screen and (max-width: 960px) {
-    padding: 0 0px;
+  @media (max-width: 960px) {
     justify-content: center;
+    padding: 0 0px;
   }
 `;
 
 const HeroInnerContainer = styled.div`
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   max-width: 1100px;
 
-  @media screen and (max-width: 960px) {
+  @media (max-width: 960px) {
     flex-direction: column;
   }
 `;
@@ -155,7 +157,7 @@ const SubTitle = styled.div`
   }
 `;
 
-const ResumeButton = styled.div`
+const ResumeButton = styled.button`
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -165,6 +167,9 @@ const ResumeButton = styled.div`
   max-width: 300px;
   text-align: center;
   padding: 16px 0;
+  border: none;
+  z-index: 1;
+  cursor: pointer;
 
   background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(
@@ -187,7 +192,7 @@ const ResumeButton = styled.div`
   font-weight: 600;
   font-size: 20px;
 
-  :hover {
+  &:hover {
     transform: scale(1.05);
     transition: all 0.4s ease-in-out;
     box-shadow: 20px 20px 60px #1f2634;
@@ -228,9 +233,7 @@ const HeroSection = () => {
   return (
     <div id="about">
       <HeroContainer>
-        <HeroBg>
-          <HeroBgAnimation />
-        </HeroBg>
+        <HeroBg>{/* <HeroBgAnimation /> */}</HeroBg>
 
         <HeroInnerContainer>
           <HeroLeftContainer>
@@ -251,10 +254,12 @@ const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton>Check Resume</ResumeButton>
+            <Link to={Bio.resume}>
+              <ResumeButton>Check Resume</ResumeButton>
+            </Link>
           </HeroLeftContainer>
 
-          <HeroRightContainer></HeroRightContainer>
+          <HeroRightContainer>{/* <Image></Image> */}</HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
     </div>

@@ -125,11 +125,11 @@ const Skills = () => {
         <Desc></Desc>
         <SkillsContainer>
           {skills.map((item) => (
-            <Skill>
+            <Skill key={item.title}>
               <SkillTitle>{item.title}</SkillTitle>
               <SkillList>
                 {item.skills.map((skill) => (
-                  <SkillItem>
+                  <SkillItem key={skill.name}>
                     <SkillImage src={skill.image} />
                     {skill.name}
                   </SkillItem>

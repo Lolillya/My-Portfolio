@@ -167,7 +167,7 @@ const ResumeButton = styled.button`
     appearance: button;
     text-decoration: none;
 
-    width: 95%;
+    width: 15rem;
     max-width: 300px;
     text-align: center;
     padding: 16px 0;
@@ -229,6 +229,14 @@ const TextLoopContainer = styled.div`
     align-items: center;
 `;
 
+const LinkContainer = styled.div`
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    justify-content: center;
+    flex-grow: 1;
+`;
+
 const HeroSection = () => {
     return (
         <div id="about">
@@ -256,9 +264,14 @@ const HeroSection = () => {
                             </TextLoop>
                         </TextLoopContainer>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <Link to={Bio.resume}>
-                            <ResumeButton>Check Resume</ResumeButton>
-                        </Link>
+                        <LinkContainer>
+                            <Link to={Bio.resume}>
+                                <ResumeButton>Check Resume</ResumeButton>
+                            </Link>
+                            <Link to={Bio.linkedin}>
+                                <ResumeButton>Linkedin</ResumeButton>
+                            </Link>
+                        </LinkContainer>
                     </HeroLeftContainer>
 
                     {/* <HeroRightContainer><Image></Image></HeroRightContainer> */}

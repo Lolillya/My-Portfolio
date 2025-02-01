@@ -4,9 +4,9 @@ export const Bio = {
     description:
         "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Lolillya",
-    resume: "https://drive.google.com/file/d/1bzf4MaE8cvcPtDeQaY9V4bEWl_H2_jrQ/view?usp=drive_link",
-    linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    facebook: "https://www.facebook.com/rishav.chanda.165/",
+    resume: "https://drive.google.com/file/d/1skJZQsiTZwjuXd5RSKcuU7yl8VPPhmtj/view?usp=drive_link",
+    linkedin: "https://www.linkedin.com/in/jerald-dagaang-83266624b/",
+    facebook: "",
 };
 
 export const skills = [

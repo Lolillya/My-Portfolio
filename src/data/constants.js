@@ -247,7 +247,7 @@ export const projects = [
         image: "https://github.com/Lolillya/2D_SpaceShooterGame/blob/master/2D_SpaceShooterGame/assets/asserts/360_F_264279006_WDXxV3OHjAOoHqH7iiLDrg23p0947g7U.jpg?raw=true",
         tags: [".NET", "C#", "Windows Forms"],
         category: "native app",
-        github: "https://github.com/Lolillya/react-with-redux-test.git",
+        github: "https://github.com/Lolillya/2D_SpaceShooterGame",
         webapp: "",
     },
     {
@@ -271,7 +271,7 @@ export const projects = [
         image: "https://mcm.edu.ph/wp-content/uploads/2022/06/Logo-Final_noname_1.png",
         tags: ["HTML", "CSS", "Javascript", "XAMPP MySql", "Node.js", "Express.js"],
         category: "web app",
-        github: "https://github.com/Lolillya/cafe-ferrer-website.git",
+        github: "https://github.com/Lolillya/mcm_AppDev-bookingApp",
         webapp: "",
     },
 
@@ -293,7 +293,7 @@ export const projects = [
         date: "November 2024",
         description:
             "to resolve the numerous challenges posed by the company’s outdated and inefficient existing system",
-        image: "https://raw.githubusercontent.com/Lolillya/prince-educational-supplies-inventory-system/3dd6e470681eb36dcd13921b73a0b76a422a9139/public/Company_Logo.svg?token=AM2O4QUBNQT3RFGBCA52FZ3HTZY4C",
+        image: "https://raw.githubusercontent.com/Lolillya/prince-educational-supplies-inventory-system/3dd6e470681eb36dcd13921b73a0b76a422a9139/public/Company_Logo.svg?token=AM2O4QXZUMSZ5H3AVB6T6NTHTZ2C4",
         tags: [
             "ReactJs",
             "NextJs",

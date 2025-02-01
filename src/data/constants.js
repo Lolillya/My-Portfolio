@@ -265,7 +265,7 @@ export const projects = [
     {
         id: 3,
         title: "Facility Booking System",
-        date: "Jan 5 2024",
+        date: "June 5 2024",
         description:
             "Booking system for Mapua Malayan Colleges Mindanao, digitalizing the process to easily reserve facilities.",
         image: "https://mcm.edu.ph/wp-content/uploads/2022/06/Logo-Final_noname_1.png",
@@ -274,13 +274,26 @@ export const projects = [
         github: "https://github.com/Lolillya/cafe-ferrer-website.git",
         webapp: "",
     },
+
     {
         id: 4,
+        title: "Chedx Website",
+        date: "October 2024",
+        description: "Website for National Chedx Event",
+        image: "https://raw.githubusercontent.com/Samshh/CHEDx-Website/82b90927297b8122d5424f4599da1cf02f152bf3/public/CHEDxLogo.svg",
+        tags: ["ReactJs", , "Typescript", "TailwindCSS", "GSAP", "ShadCN", "HTML", "CSS", "Javascript"],
+        category: "web app",
+        github: "https://github.com/Samshh/CHEDx-Website",
+        webapp: "https://chedx2024.usep.edu.ph/",
+    },
+
+    {
+        id: 5,
         title: "Inventory System",
         date: "November 2024",
         description:
             "to resolve the numerous challenges posed by the company’s outdated and inefficient existing system",
-        image: "https://raw.githubusercontent.com/Lolillya/prince-educational-supplies-inventory-system/3dd6e470681eb36dcd13921b73a0b76a422a9139/public/Company_Logo.svg?token=AM2O4QVE43RKTDRBLMDDLZLHTZVQU",
+        image: "https://raw.githubusercontent.com/Lolillya/prince-educational-supplies-inventory-system/3dd6e470681eb36dcd13921b73a0b76a422a9139/public/Company_Logo.svg?token=AM2O4QUBNQT3RFGBCA52FZ3HTZY4C",
         tags: [
             "ReactJs",
             "NextJs",

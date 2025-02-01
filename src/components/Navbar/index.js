@@ -181,13 +181,13 @@ const Navbar = () => {
             }}
           />
         </MobileIcon>
-        <NavItems>
+        {/* <NavItems>
           <NavLink>Home</NavLink>
           <NavLink>Skills</NavLink>
           <NavLink>Experience</NavLink>
           <NavLink>Projects</NavLink>
           <NavLink>Education</NavLink>
-        </NavItems>
+        </NavItems> */}
 
         {isOpen && (
           <MobileMenu open={isOpen}>
